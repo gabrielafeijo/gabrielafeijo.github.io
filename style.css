@@ -1,0 +1,27 @@
+body {
+    background-color: #2a585a;
+}
+#name-style {
+    font-family: cursive;
+    background-color: #fbdce2;
+    text-align: center;
+    font-size: 60px;
+    line-height: 100px;
+    letter-spacing: -1px;
+    font-weight: 600;
+}
+img {
+    border-radius: 100%;
+    display: block;
+    margin: auto;
+}
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #79989a;
+}
+ul li .list-style{
+    font-size: 30px;
+    text-decoration: none;
+    color: #fbdce2;
+}
+        
