@@ -1,5 +1,6 @@
 body {
     background-color: #2a585a;
+    margin: 0;
 }
 #name-style {
     font-family: cursive;
@@ -12,12 +13,27 @@ body {
 }
 img {
     border-radius: 100%;
-    display: block;
+    padding: 20px;
+    z-index: 1;
+}
+.header{
+    width: 70%;
+    display: inline-block;
     margin: auto;
+    padding-top: 10px;
+    padding-left: 300px;
+    background-color: #79989a;
+    float: right;
+    z-index: 2;
+}
+
+div h1 p {
+    padding: 100px 30px;
+    background-color: black;
 }
 p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #79989a;
+    
 }
 ul li .list-style{
     font-size: 30px;
