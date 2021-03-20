@@ -94,6 +94,7 @@ button{
     margin-top: 80px;
     margin-bottom: 80px;
     border-radius: 100px;
+    border: 2px solid;
     }
 
 .button{
