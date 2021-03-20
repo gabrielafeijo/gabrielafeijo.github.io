@@ -2,6 +2,11 @@ body {
     background-color: #2a585a;
     margin: 0;
 }
+
+ p{
+     font-family: cursive;
+ }
+
 #name-style {
     font-family: cursive;
     background-color: #fbdce2;
@@ -10,34 +15,93 @@ body {
     line-height: 100px;
     letter-spacing: -1px;
     font-weight: 600;
+    color: #2a585a
 }
 img {
     border-radius: 100%;
-    padding: 20px;
-    z-index: 1;
-}
+    padding: 10px;
+    margin-left: 10px;
+    background-color: #fbdce2;
+    margin-bottom: 20px;
+    display: inline-block;
+    }
 .header{
     width: 70%;
-    display: inline-block;
-    margin: auto;
-    padding-top: 10px;
-    padding-left: 300px;
-    background-color: #79989a;
+    display: block;
+    margin-top: 100px;
+    margin-left: 30px;
+    padding: 10px;
+    padding-right: 10px;
+    background-color: #fbdce2;
     float: right;
-    z-index: 2;
+    text-align: justify;
+    color: #2a585a;
+    font-style: oblique;
 }
 
-div h1 p {
-    padding: 100px 30px;
-    background-color: black;
+.habilidades{
+    background-color: #fbdce2;
+    font-size: large;
+    font-family: cursive;
+    padding: 20px;
+    color: #2a585a;
 }
-p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
-}
-ul li .list-style{
+
+
+.list-style{
     font-size: 30px;
     text-decoration: none;
-    color: #fbdce2;
+    color: #2a585a;
+    background-color: #f7c7d0;
+    text-decoration: underline;
+    margin: 0;  
 }
-        
+h2:nth-of-type(1){
+    background-color: #2a585a;
+    text-align: center;
+    margin: 0;
+    color: #fbdce2;
+    font-size: 50px;
+}
+
+li:nth-child(odd){
+    font-style: italic;
+}
+
+
+ul li .list-style{
+    font-style: oblique;
+    background-color: #dbb5bd;
+}
+
+.list-style-text h3{
+    text-decoration: underline;
+    text-align: center;
+}
+
+.list-style-text {
+    background-color: #2a585a;
+    color: #fbdce2;
+    padding: 20px;
+    text-align: justify;
+}
+
+ 
+button{
+    background-color: #2a585a;
+    width: 20%;
+    height: 50px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border-radius: 100px;
+    }
+
+.button{
+    background-color: #fbdce2;
+    text-align: center;
+}
+
+.button a{
+    color: #fbdce2;
+    margin: 10px 10px;
+}
