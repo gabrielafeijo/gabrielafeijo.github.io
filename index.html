@@ -1,57 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
-    <title>Portfólio Gabriela Feijó</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To do list</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-		<a href="/">Home</a>
-		<a href="#sobre">Sobre</a>
-		<a href="#skills">Habilidades</a>
-        <a href="#projects">Projetos</a>
-		<a href="#contato">Contato</a>
-	</nav>
-    <section class="hero">
-        <div class="hero-text">
-            <h1 id="name-style">Gabriela Feijó</h1>
-            <p> Desenvolvedora Web <br>Aprendendo um pouco de mágica a cada código.</p>
-        </div>
-        <a href="#sobre">Quem eu sou?</a>
-    </section>
-
-    <section class="section-sobre" id="sobre">
-        <img src="Images/Gabriela-Feijo.jpeg" width="300px" alt="Foto de perfil Gabriela Feijó. Gabriela está sorrindo e vestindo uma blusa azul. O fundo da foto está desfocado, mas parece um lugar com árvores">
-        <p>
-            Gabriela Feijó, <b>brasileira</b>, 34 anos, <strong>estudante Trybe</strong>, mora em <b>São Paulo</b>, mas sempre quando pode procura conhecer novos países e novas culturas.
-            <br>
-            Arrasando como estudante de Desenvolvimento Web na Trybe. <br> Também é mestre em Gestão de Políticas Públicas pela Universidade de São Paulo (USP) e graduada em Relações Internacionais.
-        </p>
-    </section>
-    <section class="list-style" id="skills">
-        <h2> Habilidades </h2>
-        <br>
-            <ul>
-                <li> Metodologias Ágeis;</li>
-                <li> Unix e Bash;</li>
-                <li> Git e GitHub;</li>
-                <li> HTML, CSS e JavaScript;</li>
-                <li> JavaScript ES6 e Testes Unitários;</li>
-                <li> Testes automatizados com Jest;</li>
-                <li> React, Redux e React Test Library.</li>
-            </ul>
-    </section>
-    <section class="projects-section" id="projects">
-		<h2>Projetos</h2>
-		<div class="project" id="portfólio">
-			<a href="project-to-do-list" target="_blank"> To Do List - JavaScript ES6 </a>
-			<a href="" target="_blank">Project Shopping Cart</a>
+  <header>
+    <h1><strong>Minha Lista de Tarefas</strong></h1>
+  </header>
+  <main>
+    <section>
+      <p id= 'funcionamento'>Clique duas vezes em um item para marcá-lo como completo</p>
+      <input type="text" id="texto-tarefa">
+      <button id = 'criar-tarefa'>To Do</button>
     </section>
     <section>
-        <footer>Made by Gabriela Feijó ©</footer>
+      <ol id = 'lista-tarefas'></ol>
     </section>
+    <section>
+      <button id = 'apaga-tudo'>Clear All</button>
+      <button id = 'remover-finalizados'>Remove</button>
+      <button id = 'remover-selecionado'>Remove Selected Items</button>
+      <button id = 'salvar-tarefas'>Save</button>
+      <button id = 'mover-cima'>Up</button>
+      <button id = 'mover-baixo'>Down</button>
+    </section>
+  </main>
+  <footer><h4>Made by Gabriela Feijó Ⓒ</h4></footer>
+  
 </body>
+<script src="/script.js"></script>
 </html>
