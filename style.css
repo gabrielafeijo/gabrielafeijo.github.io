@@ -136,7 +136,7 @@ img {
 
   .project a {
     text-decoration: none;
-    color: #2d2e3a;
+    color:#1A5E64;
     font-size: 20px;
     margin: 20px;
     width: 700px;
@@ -144,4 +144,13 @@ img {
   flex-direction: column;
   justify-content: start;
   }
-  
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+    background-color:#eeeeee;
+    color:#1A5E64;
+    font-family: 'Roboto', sans-serif;
+  }
