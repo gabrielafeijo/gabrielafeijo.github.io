@@ -1,108 +1,149 @@
-body {
-    background-color: #2a585a;
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
- p{
-     font-family: cursive;
- }
+body {
+    background-color: #1A5E64;
+}
+
+nav {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #FF8B9E;
+}
+nav a {
+  text-decoration: none;
+  cursor: pointer;
+  align-items: center;
+  color: #1A5E64;
+  font-size: 20px;
+  font-weight: 500;
+}
+
 
 #name-style {
     font-family: cursive;
-    background-color: #fbdce2;
+    color: #FF8B9E;
     text-align: center;
     font-size: 60px;
     line-height: 100px;
     letter-spacing: -1px;
     font-weight: 600;
-    color: #2a585a
 }
+
+.section-sobre {
+    background-color: #eeeeee;
+    color: #1A5E64;
+    display: flex;
+    justify-content:flex-center;
+    padding: 50px;
+    width: 100%;
+}
+.section-sobre p {
+    font-size: 20px;
+    margin: 40px;
+    width: 800px;
+    align-content: center;
+}
+
 img {
+    width: 250px;
+    height: 250px;
     border-radius: 100%;
-    padding: 10px;
-    margin-left: 10px;
-    background-color: #fbdce2;
-    margin-bottom: 20px;
-    display: inline-block;
-    }
-.header{
-    width: 70%;
-    display: block;
-    margin-top: 100px;
-    margin-left: 30px;
-    padding: 10px;
-    padding-right: 10px;
-    background-color: #fbdce2;
-    float: right;
-    text-align: justify;
-    color: #2a585a;
-    font-style: oblique;
+    padding: 5px;
+    margin-left: 15px;
+  }
+
+.hero {
+    background-image: url(Images/1.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-.habilidades{
-    background-color: #fbdce2;
-    font-size: large;
-    font-family: cursive;
-    padding: 20px;
-    color: #2a585a;
-}
-
-
-.list-style{
-    font-size: 30px;
+.hero a {
+    background-color: #eeeeee;
+    color: #FF8B9E;
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 0.8;
     text-decoration: none;
-    color: #2a585a;
-    background-color: #f7c7d0;
-    text-decoration: underline;
-    margin: 0;  
+    cursor: pointer;
+    padding: 15px;
+    margin:10px;
+    border-radius: 5px;
 }
-h2:nth-of-type(1){
-    background-color: #2a585a;
-    text-align: center;
-    margin: 0;
-    color: #fbdce2;
-    font-size: 50px;
-}
-
-li:nth-child(odd){
-    font-style: italic;
-}
-
-
-ul li .list-style{
-    font-style: oblique;
-    background-color: #dbb5bd;
-}
-
-.list-style-text h3{
-    text-decoration: underline;
-    text-align: center;
-}
-
-.list-style-text {
-    background-color: #2a585a;
-    color: #fbdce2;
-    padding: 20px;
-    text-align: justify;
-}
-
- 
-button{
-    background-color: #2a585a;
-    width: 20%;
-    height: 50px;
-    margin-top: 80px;
-    margin-bottom: 80px;
-    border-radius: 100px;
-    border: 2px solid;
+    
+    .hero-text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      align-content: center;
+      color: #FF8B9E;
+      opacity: 0.8;
+      padding: 50px;
+      border-radius: 10px;
+      margin: 10px;
+    }
+    
+    .hero-text h1 {
+      font-size: 40px;
+      font-weight: 300;
+      margin-bottom: 20px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .hero-text p {
+      font-size: 25px;
+      color: #eeeeee;
     }
 
-.button{
-    background-color: #fbdce2;
-    text-align: center;
+/* p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fbdce2;
+}
+ */
+.list-style{
+    font-size: 25px;
+    text-decoration: none;
+    color: #eeeeee;
+    background-color: #1A5E64;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    padding: 50px;
+    margin: 20px;
+    width: 700px;
 }
 
-.button a{
-    color: #fbdce2;
-    margin: 10px 10px;
-}
+.projects-section {
+    background-color:#eeeeee;
+    color:#1A5E64;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    padding: 50px;
+  }
+  
+  .projects-section h2 {
+    font-size: 25px;
+    margin: 20px
+  }
+  .project a {
+    text-decoration: none;
+    color: #2d2e3a;
+    font-size: 20px;
+    margin: 20px;
+    width: 700px;
+    display: flex;
+  flex-direction: column;
+  justify-content: start;
+  }
