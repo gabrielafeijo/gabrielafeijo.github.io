@@ -4,52 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
     <title>Portfólio Gabriela Feijó</title>
+    <style>
+        body {
+            background-color: #2a585a;
+        }
+        #name-style {
+            font-family: cursive;
+            background-color: #fbdce2;
+            text-align: center;
+            font-size: 60px;
+            line-height: 100px;
+            letter-spacing: -1px;
+            font-weight: 600;
+        }
+        img {
+            border-radius: 100%;
+            display: block;
+            margin: auto;
+        }
+        p {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: #79989a;
+        }
+        ul, li, .list-style{
+            font-size: 30px;
+            text-decoration: none;
+            color: #fbdce2;
+        }
+    </style>
 </head>
 <body>
-    <nav>
-		<a href="/">Home</a>
-		<a href="#sobre">Sobre</a>
-		<a href="#skills">Habilidades</a>
-        <a href="#projects">Projetos</a>
-		<a href="#contato">Contato</a>
-	</nav>
-    <section class="hero">
-        <div class="hero-text">
-            <h1 id="name-style">Gabriela Feijó</h1>
-            <p> Desenvolvedora Web <br>Aprendendo um pouco de mágica a cada código.</p>
-        </div>
-        <a href="#sobre">Quem eu sou?</a>
-    </section>
-
-    <section class="section-sobre" id="sobre">
-        <img src="Images/Gabriela-Feijo.jpeg" width="300px" alt="Foto de perfil Gabriela Feijó. Gabriela está sorrindo e vestindo uma blusa azul. O fundo da foto está desfocado, mas parece um lugar com árvores">
-        <p>
-            Gabriela Feijó, <b>brasileira</b>, 34 anos, <strong>estudante Trybe</strong>, mora em <b>São Paulo</b>, mas sempre quando pode procura conhecer novos países e novas culturas.
-            <br>
-            Arrasando como estudante de Desenvolvimento Web na Trybe. <br> Também é mestre em Gestão de Políticas Públicas pela Universidade de São Paulo (USP) e graduada em Relações Internacionais.
-        </p>
-    </section>
-    <section class="list-style" id="skills">
-        <h2> Habilidades </h2>
-        <br>
-            <ul>
-                <li> Metodologias Ágeis;</li>
-                <li> Unix e Bash;</li>
-                <li> Git e GitHub;</li>
-                <li> HTML, CSS e JavaScript;</li>
-                <li> JavaScript ES6 e Testes Unitários;</li>
-                <li> Testes automatizados com Jest;</li>
-                <li> React, Redux e React Test Library.</li>
-            </ul>
-    </section>
-    <section class="projects-section" id="projects">
-		<h2>Projetos</h2>
-		<div class="project" id="portfólio">
-			<a href="project-to-do-list" target="_blank"> To Do LIst - JavaScript ES6 </a>
-			<a href="" target="_blank">Project Shopping Cart - API Mercado Livre</a>
-    </section>
+    <h1 id="name-style">Gabriela Feijó</h1>
+    <img src="Images/Gabriela-Feijo.jpeg" width="300px" alt="Foto de perfil Gabriela Feijó. Gabriela está sorrindo e vestindo uma blusa azul. O fundo da foto está desfocado, mas parece um lugar com árvores">
+    <p>
+        Gabriela Feijó, <b>brasileira</b>, 33 anos, <strong>estudante Trybe</strong>, mora em <b>São Paulo</b>, mas sempre quando pode procura conhecer <em>novos países e novas culturas</em>.
+    </p>
+    <p>
+        Formada em Relações Internacionais e mestre em Gestão de Políticas Públicas pela Universidade de São Paulo (USP). <br> Fala inglês fluente e arranha um francês e espanhol. No momento está apaixonada pela programação e procura aprender essa nova linguagem.
+    </p>
+    <h2> Habilidades</h2>
+    <ul class="list-style">
+        <li><a class="list-style" href="#ingles">Inglês fluente</a></li>
+        <li><a class="list-style" href="#HTML">HTML Básico</a></li>
+        <li><a class="list-style" href="#CSS">CSS Básico</a></li>
+        <li><a class="list-style" href="JavaScript">JavaScript Básico</a></li>
+    </ul>
+    <h3 id="ingles">Inglês fluente </h3>
+        <p>Em algum momento escreverei algo interessante ou não.</p>
+    <h3 id="HTML">HTML Básico</h3>
+        <p>Pensei em compartilhar minha evolução em HTML por aqui!</p>
+    <h3 id="CSS">CSS Básico</h3>
+        <p>Pensei em compartilhar minha evolução em CSS por aqui!</p>
+    <h3 id="JavaScript">JavaScript Básico</h3>
+            <p>Pensei em compartilhar minha evolução em JavaScript por aqui!</p>
+    <a href="https://umavidasemlixo.com/blog/" target="_blank">Me interessa</a>
+    
+    <!--Seu Portfólio 
+    Coloque tamanhos diferentes para os elementos da lista de habilidades que você criou. Lembre-se de usar classes para cada um dos elementos;-->
 
 </body>
 </html>
